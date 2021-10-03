@@ -1,68 +1,148 @@
-*{
+* {
     padding: 0;
     margin: 0;
     list-style-type: none;
 }
-.continer{
+
+.continer {
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
     padding-left: 50px;
     padding-right: 50px;
-   
 }
-.btn{
+
+.btn {
     color: white;
-    cursor:pointer;
+    cursor: pointer;
     height: 47px;
     width: 189px;
     border-radius: 8px;
-    padding: 12px, 24px, 12px, 24px; 
-    background:#DE2E54;
-    border: 2px  solid #DE2E54;
-    box-sizing: border-box; 
+    padding: 12px, 24px, 12px, 24px;
+    background: #DE2E54;
+    border: 2px solid #DE2E54;
+    box-sizing: border-box;
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
-a{
-    font-family: "Open Sans" ,sans-serif;
+
+a {
+    font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
-    line-height: 1,5px;
+    line-height: 150%;
+    letter-spacing: 2px;
     text-decoration: none;
 }
-.nav-continer,
-.show-case-continer,
-.show-info,
-.footer-continer,
-ul{
+
+.nav-continer, .show-case-continer, .show-info, .footer-continer, ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.nav{
+/* SAYT HAEDERI */
+.nav {
     height: 97px;
     display: flex;
     align-items: center;
     position: sticky;
     top: 0px;
-    z-index:1;
+    z-index: 1;
     background-color: #fff;
 }
-.nav-link{
+
+.nav-link {
     color: #222;
-    margin-right:32px;
+    margin-right: 32px;
 }
 
-.show-case{
+/* SHOW-CASE  */
+
+.show-case {
     height: 533px;
     display: flex;
-    align-items:flex-end;
+    align-items: flex-end;
     background-color: #0EB4C1;
 }
-.show-case h1{
-    font-family: "Open Sans" Condensed;
+
+.show-case h1 {
+    font-family: Open Sans Condensed;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
-    line-height: 120%;     
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+.show-case p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+
+/* XIZMATLAR */
+.xizmatlar{
+    text-align: center;
+}
+.xizmatlar h1{
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 120%;
+    color: #000000;
+}
+.info-txt{
+    text-align: left;
+}
+.info-txt h3{
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
+    color: #222222; 
+}
+.info-txt p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #444444;
+}
+
+/* QABUL */
+.qabul{
+    height: 253px;
+    text-align: center;
+    background-color:#0EB4C1;
+}
+.qabul h1{
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 120%;
+    color: #FFFFFF;   
+}
+
+/* FOOTER */
+.footer {
+    background-color: #222;
+}
+.footer-link{
+    color: #FFFFFF;
+    margin-right: 32px;
 }
